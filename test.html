@@ -1,13 +1,28 @@
+
+<!-- This file, "test.html", is at the root of the Document Object Model -->
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<title>Multifile JavaScript Test</title>
+    
+<!-- "demostyle.css" is an external style sheet -->
+<link id = "css" rel="stylesheet" type="text/css" href="demostyle.css">
+    
+<!-- "demo.js" is an external script -->
+<script src="demo.js"></script>
+    
 </head>
+
 <body>
-    <h1>this is a big test</h1>
-    <h3>new test</h3>
+<h1>Multiple File Demo</h1>
+<p id="msg">Message for you ...</p>
+
+<form name="theForm">
+<input type="text"></input>
+<input type="button" value="Change Message" onclick="changeMsg()">
+</form>
+
 </body>
 </html>
