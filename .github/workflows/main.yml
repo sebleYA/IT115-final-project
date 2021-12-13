@@ -19,4 +19,4 @@ jobs:
         aws-region: us-east-1
     
     - name: Select and deploy static website to s3
-      run: aws s3 sync index.html s3://sebleserver --delete
+      run: aws s3 sync ./ s3://sebleserver --delete
